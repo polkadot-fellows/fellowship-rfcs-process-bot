@@ -19,7 +19,7 @@ jobs:
     if: ${{ github.event.issue.pull_request && startsWith(github.event.comment.body, '/bot ') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: xlc/fellowship-process-bot@main
+      - uses: polkadot-fellows/fellowship-rfcs-process-bot@main
 
 ```
 
